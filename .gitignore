@@ -1,0 +1,138 @@
+.venv/
+venv/
+grammer/antlr-4.13.1-complete.jar
+parser/EdgeFlow*
+parser/*.interp
+parser/*.tokens
+parser/__pycache__/
+parser/.antlr/
+.coverage
+coverage.xml
+coverage.svg
+coverage/
+frontend/node_modules/
+frontend/coverage/
+frontend/tsconfig.tsbuildinfo
+backend/coverage/
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+backend/.pytest_cache/
+backend/.mypy_cache/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+**/__pycache__/
+
+# Virtual environments
+.venv2/
+frontend/.venv2/
+
+# Test and temporary files
+*.ef
+test_*.ef
+sample.ef
+tests/
+
+# Allow example configuration files
+!example_*.ef
+
+# Models - exclude all large model files
+*.h5
+*.tflite
+*.onnx
+*.pb
+*.pkl
+*.joblib
+
+# Allow only small test/example model files
+!test.tflite
+!test_optimized.tflite
+!example_*.tflite
+
+# Frontend build files
+frontend/.next/
+frontend/out/
+frontend/build/
+
+# Documentation and summary files (auto-generated)
+*_SUMMARY.md
+GRAMMAR_VALIDATION_SUMMARY.md
+FAST_COMPILER_SUMMARY.md
+INTEGRATION_GUIDE.md
+
+# Generated code and artifacts
+backend_*/
+generated_code/
+*.c
+*.h
+*.cpp
+*.hpp
+main.c
+edge_model.*
+Makefile
+
+# Performance and profiling
+*.prof
+*.perf
+performance_*.json
+benchmark_*.json
+
+# Device profiles and configurations
+device_profiles.json
+custom_devices.json
+
+# Test artifacts and temporary files
+test_output/
+*.test
+test_*.py.bak
+examples/output/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# OS and system files
+.DS_Store
+Thumbs.db
+*.pid
+*.lock
+
+# Backup and temporary files
+*.bak
+*.backup
+*.orig
+*~
+.#*
+#*#
+
+# Compiled Python extensions
+*.so
+*.pyd
+*.dll
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
